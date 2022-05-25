@@ -1,0 +1,421 @@
+@media only screen and (min-width: 1920px) {
+  #public-layout .cp-section1 {
+    background-size: cover;
+    background-position: center -6vw;
+  }
+  #public-layout .cp-section1::after {
+    background-size: cover;
+  }
+}
+@media only screen and (max-width: 1600px) {
+  #member-layout .features-1::after,
+  #member-layout .features-2::after {
+    width: 14.2rem;
+    height: 10rem;
+  }
+  #member-layout .gcp-description {
+    max-width: calc(100% - 9rem);
+  }
+  #member-layout .box.matrix-view-wrapper .matrix-container {
+    padding: 7rem 0;
+  }
+  .history-wrapper {
+    left: 2rem;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  html {
+    font-size: 50%;
+  }
+
+  #member-layout .box.matrix-view-wrapper .matrix-container {
+    padding: 7rem;
+  }
+  .history-wrapper {
+    left: 10rem;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  #member-layout .gcp-income {
+    flex-wrap: wrap;
+  }
+  #member-layout .gcp-income .cur2 {
+    padding-left: 0;
+  }
+
+  #member-layout .box.matrix-view-wrapper .matrix-container {
+    padding: 7rem 0;
+  }
+  .history-wrapper {
+    left: 4rem;
+    top: 23rem;
+  }
+}
+@media only screen and (max-width: 1130px) {
+}
+@media only screen and (max-width: 960px) {
+  #member-layout .grid-12 {
+    width: 100%;
+  }
+  #member-layout .features-1 {
+    margin-bottom: 2rem;
+  }
+  #member-layout .section-heading {
+    flex-wrap: wrap;
+  }
+  #member-layout .menu-nav > li {
+    position: relative;
+    padding-right: 1.6rem;
+  }
+  #member-layout .menu-nav li.sep {
+    margin-right: 1.6rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #public-layout .mobile-menu-handle {
+    display: flex;
+    position: relative;
+    z-index: 9999;
+  }
+  #public-layout .menu-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9998;
+    display: block;
+    width: 100%;
+    background: rgba(19, 16, 22, 0.95);
+    padding: 0 4rem;
+    box-sizing: border-box;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.2s linear;
+  }
+  #public-layout .menu-nav li {
+    border-top: 1px solid rgba(255, 255, 255, 0.144);
+    padding: 1rem;
+    text-align: center;
+    font-size: 2.1rem;
+  }
+  #public-layout .menu-nav li a i.icon-telegram-app {
+    font-size: 2.6rem;
+  }
+  #public-layout .menu-nav li.extra a {
+    display: inline-block;
+  }
+  #public-layout .menu-nav li.extra {
+    padding: 2rem 1rem;
+  }
+  .mobile-menu-handle[data-menu-panel="expanded"] + .menu-nav {
+    max-height: 180rem !important;
+    padding: 14rem 4rem 2rem 4rem !important;
+  }
+  #public-layout .top-bar-wrapper .logo a {
+    z-index: 9999;
+  }
+  #public-layout .plans-grid .pointer {
+    display: none;
+  }
+  #public-layout .plans-grid {
+    flex-wrap: wrap;
+    padding: 0 0 10.2rem;
+  }
+  #public-layout .plans-section {
+    width: 100%;
+    order: 1;
+    max-width: 44rem;
+  }
+  #public-layout .plans-section .pin {
+    display: none;
+  }
+  #public-layout .plans-section::before,
+  #public-layout .plans-section::after {
+    content: none !important;
+  }
+  #public-layout .plans-legend {
+    width: 100%;
+    order: 2;
+    background: #291e40cf;
+    border: 7px solid #574b7d;
+  }
+  #public-layout .plans-grid::after {
+    content: none;
+  }
+  #public-layout .footer-wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #public-layout .footer-content2 {
+    display: none;
+  }
+  #public-layout .footer-content1 {
+    text-align: center;
+    padding-right: 0;
+    width: 100%;
+    padding-top: 1rem;
+  }
+
+  #member-layout .toggle-menu {
+    display: block;
+  }
+  #member-layout .menu-nav {
+    display: none;
+  }
+  #member-layout .top-bar-wrapper .wdg-logo {
+    display: flex !important;
+    margin: 0;
+  }
+  #member-layout .left-panel {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    padding: 0 1.3rem 4rem;
+    height: 100%;
+    overflow-y: scroll;
+  }
+  #member-layout .wdg-logo {
+    display: none;
+  }
+  #member-layout .left-panel > div {
+    max-width: 60rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #member-layout .wdg-avatar {
+    margin-top: 6rem;
+  }
+
+  #member-layout .close-panel {
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+  }
+  #member-layout .close-panel:hover {
+    color: #ffcf4c;
+  }
+  #member-layout .close-panel i {
+    font-size: 3.4rem;
+  }
+
+  #member-layout .stats-label {
+    line-height: 2.8rem;
+  }
+
+  #member-layout [data-menu="expand"] .menu-nav {
+    display: none;
+    position: absolute;
+    width: 100%;
+    display: block;
+    background: white;
+    left: 0;
+    top: 0;
+    padding: 3rem 3rem 0rem 3rem;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px #0000003b;
+    list-style: none;
+  }
+
+  #member-layout .menu-nav li {
+    list-style: none;
+  }
+  #member-layout .menu-nav li.sep {
+    display: none;
+  }
+  #member-layout .menu-nav > li {
+    padding: 2rem 0;
+    border-bottom: 1px solid #9d85a438;
+  }
+  #member-layout .menu-nav a {
+    font: 600 1.9rem/2.4rem "Cairo", "Mukta Vaani", sans-serif !important;
+  }
+  #member-layout .menu-nav > li[data-submenu]::after {
+    position: absolute;
+    top: 2.8rem;
+    right: 12px;
+  }
+  #member-layout .submenu {
+    position: relative;
+    width: 100%;
+    top: 1rem;
+    left: 0;
+  }
+  #member-layout .submenu li a {
+    display: block;
+    background: #f2f2f5;
+    margin-bottom: 0.2rem;
+    max-width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  #member-layout .flags::before {
+    top: 3px;
+  }
+  #member-layout .submenu a {
+    font: 300 2rem "Mukta Vaani", sans-serif !important;
+    text-transform: none;
+  }
+  .submenu .flags::before {
+    top: 10px !important;
+    transform: scale(1);
+  }
+  #member-layout .left-panel {
+    font-size: 1.8rem;
+    padding: 0 4rem 4rem;
+  }
+  #member-layout .wdg-income .amount {
+    display: block;
+    font: 500 2.4rem "Mukta Vaani", sans-serif;
+  }
+  #member-layout .wdg-actions a,
+  #member-layout .wdg-actions a:visited,
+  #member-layout .wdg-actions button {
+    font: 500 1.4rem "Mukta Vaani", sans-serif;
+  }
+  #member-layout .wdg-stats .stats-value {
+    font: 600 2.8rem/2.8rem "Mukta Vaani", sans-serif;
+  }
+  #member-layout .wdg-user .user-id {
+    font: 400 2.4rem "Cairo", sans-serif;
+  }
+  #member-layout .wdg-avatar {
+    width: 12.2rem;
+    height: 8rem;
+  }
+  #member-layout .wdg-user {
+    margin-bottom: 1.4rem;
+  }
+  #member-layout .wdg-links .wdg-input-box {
+    max-width: 30rem;
+  }
+  #member-layout .legend {
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 567px) {
+  #public-layout .top-bar-wrapper .logo a {
+    width: 23.2rem;
+    height: 4.7rem;
+  }
+
+  #public-layout .movie-thumb {
+    max-height: 61.5vw;
+  }
+  #public-layout .icon-play-movie {
+    transform: scale(0.8);
+  }
+  #public-layout .section-stats {
+    margin-top: 19.5rem;
+  }
+  #public-layout .stats-listing ul {
+    flex-wrap: wrap;
+  }
+  #public-layout .stats-listing li {
+    width: 80%;
+    padding: 4rem 0 3rem;
+    margin: 2rem auto 1rem;
+    background: #00000038;
+  }
+  #public-layout .stats-listing ul::after,
+  #public-layout .stats-listing ul::before {
+    content: none;
+  }
+  #public-layout .stats-listing ul li .sl-line {
+    display: none;
+  }
+  #public-layout .stats-listing li:first-child::before {
+    content: none;
+  }
+  #public-layout .stats-wrapper {
+    padding: 2.6rem 0 4rem;
+  }
+  #public-layout .stats-wrapper::after {
+    content: none;
+  }
+  #public-layout .stats-listing .stats-label {
+    padding-top: 1rem;
+  }
+  #public-layout .features-grid {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #public-layout .features-section {
+    width: 90%;
+  }
+  #public-layout .features-section + .features-section {
+    margin-top: 2rem;
+  }
+  #public-layout .section-3::before,
+  #public-layout .section-3::after {
+    content: none;
+  }
+  #member-layout .content-wrapper {
+    padding: 9.4rem 1.5rem 10rem;
+  }
+  #member-layout .box {
+    padding: 3.4rem 3rem;
+  }
+  #member-layout .table-wrapper {
+    position: relative;
+    padding: 0;
+    overflow-x: scroll;
+    background: none;
+    text-align: center;
+  }
+  #member-layout .table-wrapper::before {
+    background: #8b769f;
+    color: white;
+    padding: 0.5rem 2rem;
+    display: inline-block;
+    margin: 1rem auto;
+    border-radius: 4px;
+  }
+  #member-layout .content-wrapper {
+    max-width: 100vw;
+  }
+  #member-layout .form-cell.cell-12 {
+    width: 100%;
+  }
+  #member-layout .form-cell.cell-14 {
+    width: 50%;
+  }
+  .pagination-wrapper {
+    flex-wrap: wrap;
+  }
+  #member-layout .legend-wrapper {
+    flex-wrap: wrap;
+  }
+  #member-layout .pagination-nav {
+    display: flex;
+  }
+  #public-layout .hero-section {
+    padding-top: 19rem;
+  }
+  #public-layout .header-section h1 {
+    color: white;
+    margin-bottom: 1.8rem;
+  }
+  #public-layout h1 {
+    font: 600 4.6rem/5rem "Cairo", sans-serif;
+  }
+  #public-layout .movie-thumb {
+    z-index: 9;
+  }
+  #public-layout .submenu {
+    position: relative;
+    top: 0;
+    background: none;
+  }
+  #public-layout .submenu li {
+    border-top: none;
+    padding: 0.1rem 1rem !important;
+  }
+  #member-layout .t-data {
+    min-width: 100rem;
+  }
+}

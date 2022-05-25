@@ -1,0 +1,549 @@
+
+
+@media (min-width: 1200px){
+.container {
+    width: 1070px;
+}
+}
+body {
+    /* background-image: url('../../../latestassets/front/img/loginbg.jpg'); */
+    background-size: cover;
+    background-color: #000;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+@media(max-width:768px) {
+    body {
+        background-position: initial;
+    }
+}
+.containerset {
+    padding-top: 5px !important;
+}
+
+.footerset {
+    text-align: center;
+}
+.upgread_btn {
+    min-width: 242px;
+    padding: 0px;
+    border-radius: 11px;
+    border: 1px solid #bda64f;
+}
+input::placeholder{
+    color:#000;
+}
+@media (min-width: 1200px) {
+    /*.container {
+        width: 1110px !important;
+    }*/
+    .container_wallethistory {
+        width: 1138px !important;
+    }
+}
+/*--modal-- start*/
+.modal-content {
+    background: #fff;
+    /*min-height: 612px;*/
+    padding-top:10px;
+}
+.yeep_footer {
+    border-top: 1px solid #e3dfcf;
+}
+.yeep_footer p {
+    margin: 0;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+.modal-header {
+    padding: 10px 15px;
+    border: unset;
+}
+.ule_logo {
+    text-align: center;
+    margin: 8px;
+}
+.ule_logo img {
+    height: 67px;
+    margin: auto;
+}
+.modal-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+    /*margin-left: 24px;*/
+    color: #fff;
+    font-size:12px;
+}
+.modal-content{position:relative;}
+.back_to_Home {
+    position: absolute;
+    right: 10px;
+    top: 2px;
+}
+    .back_to_Home a {
+        color: #fbc50b;
+        font-size: 23px;
+        text-decoration: unset;
+    }
+    .back_to_Home a:hover {
+        color: #000;
+
+    }
+.net_box {
+    background: linear-gradient(45deg, #f1c004, #ffca1a, #f8b211);
+    padding: 15px;
+    height: 120px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+
+.mtset {
+}
+
+@media(max-width:764px) {
+    .net_box {
+        margin: 0px 0 0px 0;
+    }
+
+    .content-wrapper {
+        padding-bottom: 5px !important;
+    }
+
+    .mtset {
+        margin-top: 5px !important;
+    }
+}
+.modal-body {
+    position: relative;
+    padding: 0 15px;
+    top:-23px;
+}
+
+.net_box img {
+    margin: 0 auto;
+}
+
+.tomenname {
+    color: #000;
+}
+
+.net_box:hover {
+    border: 1px solid #f4f2f5;
+    -webkit-box-shadow: 0px 0px 20px 2px rgb(163 4 254 / 35%);
+    -moz-box-shadow: 0px 0px 20px 2px rgb(163 4 254 / 35%);
+    box-shadow: 0px 0px 20px 2px rgb(163 4 254 / 35%);
+    transition: 0.5s;
+}
+
+.net_box {
+    border: 1px solid #f4f2f5;
+    /*-webkit-box-shadow: 0px 0px 20px 2px rgb(163 4 254 / 35%);
+    -moz-box-shadow: 0px 0px 20px 2px rgb(163 4 254 / 35%);
+    box-shadow: 0px 0px 20px 2px rgb(163 4 254 / 35%);*/
+    transition: 0.5s;
+}
+
+    .net_box h4 {
+        color: #000;
+    }
+
+@media (min-width: 768px) {
+    .modal-dialog {
+        width: auto;
+        margin: 30px auto !important;
+    }
+}
+/*------modal end--------*/
+.wyzbal {
+}
+
+    .wyzbal h4 {
+        border-bottom: 1px solid #a9a8a8;
+    }
+
+.wyzbal {
+}
+
+.yzicon {
+}
+
+    .yzicon img {
+        height: 17px;
+        padding-top: 2px;
+        padding-right: 6px;
+    }
+
+    .yzicon span {
+    }
+
+.usdicon {
+    padding-right: 17px;
+}
+
+    .usdicon i {
+    }
+
+    .usdicon span {
+        padding: 0px 3px 0 2px;
+        color: #b7b5b5;
+    }
+
+.usdicon {
+    display: flex;
+    justify-content: space-between;
+    background: #000;
+    margin: 11px 0px;
+    padding: 11px;
+    border: 1px solid #efefef;
+    border-radius: 10px;
+}
+
+.usdbal {
+}
+
+.yzicon2 {
+    display: flex;
+}
+
+.usdset {
+}
+
+    .usdset p {
+        margin: 0px !important;
+        color: #b7b5b5;
+    }
+
+
+/*--add number increase--*/
+.addNum {
+    padding: 12px 0 0;
+}
+
+.trxnumber {
+    display: flex;
+    justify-content: space-around;
+    background: #f5d66b;
+    padding:8px 8px;
+    border-radius:6px
+}
+
+.trxnumber input {
+    padding: 11px;
+    width: 53%;
+    border-radius: 6px;
+    color: #000;
+    background: #f5d66b;
+    border: 1px solid #c9b152;
+}
+.trxnumber button {
+    background: #000;
+    border-radius: 7px;
+    border: 1px solid #c9b152;
+    padding: 0px 14px;
+    color:#fff;
+    min-width:132px;
+}
+.yellowImg {
+    height: 23px;
+    display: initial;
+}
+.trxnumber button img{}
+.whImg{display:none; height:23px;}
+.trxnumber button:hover {
+    background: #fbc50b;
+    color: #000;
+}
+    .trxnumber button:hover .whImg {
+        display: inline-block;
+    }
+    .trxnumber button:hover .yellowImg {
+        display: none;
+    }
+.yeep_note{
+
+}
+.yeep_note h2 {
+    font-size: 14px;
+    color: #000;
+    font-weight: 600;
+margin-top: 20px !important;
+    margin-bottom: 10px !important;
+}
+
+
+.yeep_note ul{
+    padding: revert;
+}
+.yeep_note ul li {
+    list-style: disc;
+    font-size: 13px;
+    color: #000;
+}
+
+
+
+
+@media(max-width:468px) {
+    .trxnumber input {
+        width: 72%;
+    }
+}
+
+@media (max-width: 468px) {
+    .trxnumber input {
+        width: 67%;
+        margin:5px;
+    }
+}
+
+.trxnumber input:focus {
+    outline: unset;
+}
+
+.trxnumber span {
+    color: #000;
+    padding: 11px 25px;
+    border: 1px solid #c9b152;
+    border-radius: 7px;
+}
+
+.joinbtn {
+    text-align: center;
+}
+
+    .joinbtn button {
+        border: 1px solid #a39138;
+        background: #fbc50b;
+        padding: 5px 30px;
+        color: #000;
+        border-radius: 5px;
+        /*margin: 4px 13px 0 0;*/
+    }
+
+        .joinbtn button:focus {
+            outline: unset;
+        }
+
+.numbtn {
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media(max-width:768px) {
+    .numbtn {
+        display: inherit;
+    }
+
+    .numbtn button {
+        margin: 4px 2px;
+    }
+
+    .numbtn button {
+        min-width: 105px;
+    }
+}
+
+.numbtn button {
+    border: 1px solid #a39138;
+    background: linear-gradient(45deg, #f1c004, #ffca1a, #f8b211);
+    color: #000;
+    padding: 5px 20px 5px 20px;
+    /*margin: 5px;*/
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+    .numbtn button:focus {
+        outline: unset;
+    }
+/*--add number increase end--*/
+
+
+.avlbal {
+    justify-content: space-between;
+    margin: 7px 0px;
+    background: #000;
+    border-radius: 7px;
+    padding: 18px 0 15px 0;
+    text-align:right;
+}
+.avlbal span {
+    color: #000;
+    padding: 3px 78px;
+    border: 1px solid #c9b152;
+    border-radius: 7px;
+    background: #f5d66b;
+}
+.avlbal h5 input {
+    width: 47.5%;
+    text-align: center;
+    min-width: 198px;
+    background-color: #f5d66b;
+}
+
+
+
+@media(max-width:768px){
+    .avlbal span {
+        padding: 7px 21px;
+    }
+}
+@media(max-width:460px) {
+    .avlbal {
+        padding:8%;
+    }
+    .trxnumber button {
+        min-width: 110px;
+        height: 44px;
+        position: relative;
+        top: 5px;
+    }
+    .avlbal span {
+        padding: 7px 16px;
+    }
+}
+
+@media(min-width:768px) {
+    .avlbal{
+        padding-right: 22%;
+    }
+}
+
+@media(max-width:360px) {
+    .avlbal h5 input {
+        width: 32.5%;
+        text-align: inherit;
+        min-width: 155px;
+    }
+}
+
+.avlbal .showbal {
+}
+
+    .avlbal .showbal input {
+        padding: 4px 6px;
+        border: unset;
+        border-radius: 5px;
+        background: #000;
+    }
+
+        .avlbal .showbal input:focus {
+            outline: unset;
+        }
+
+.metaset {
+    position: relative;
+    top: -12px;
+}
+
+.main_pannel {
+    padding-top: 4rem;
+}
+
+.box {
+    margin: 10px 0;
+}
+
+.modal-dialog {
+    margin: 78px 0 !important;
+}
+
+@media(max-width:768px) {
+    .modal-dialog {
+        margin: 78px 0 !important;
+    }
+
+    .box {
+        margin: 15px 0;
+    }
+}
+
+.avlbal_flex {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.avlbal_flex {
+}
+
+.pd_left {
+    padding-left: 7px;
+}
+.navbar-inverse {
+    background-color: #fbc50b !important;
+    border-color: #fbc50b;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #000 !important;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #455a90 !important;
+}
+
+
+
+
+
+
+.mtset_6 {
+    margin-top: 4rem;
+}
+
+.modal_content_set {
+    min-height: 287px;
+}
+
+.abl_bal {
+    display: flex;
+}
+
+.set_width {
+    width: 50%;
+}
+
+.abl_bal {
+}
+
+.abl_bal {
+}
+
+.input_width {
+    width: 38% !important;
+    padding: 6px;
+    border-radius: 6px;
+    box-shadow: unset;
+    border: unset;
+}
+
+.set_input2 {
+}
+
+    .set_input2 input {
+        width: 38% !important;
+        padding: 6px;
+        border-radius: 6px;
+        box-shadow: unset;
+        border: unset;
+        text-align: left !important;
+    }
+
+.mtset_8 {
+    margin-top: 8px;
+}
+
+.ml_set5 {
+    margin-left: 5rem;
+}
+
+@media(max-width:768px) {
+    .mtset_11 {
+        margin-top: 13px;
+    }
+}
+.upgrade_btn{
+    text-align: center;
+}

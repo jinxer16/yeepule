@@ -1,0 +1,224 @@
+﻿.containerset {
+  padding-top: 5px !important;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1099px !important;
+  }
+}
+/*--modal-- start*/
+.modal-content {
+  background: #1c0148;
+  min-height: 481px;
+}
+.modal-header {
+  padding: 10px 20px;
+  border-bottom: 1px solid #2e086b;
+}
+.modal-title {
+  margin-bottom: 0;
+  line-height: 1.5;
+  margin-left: 24px;
+  color: #fff;
+}
+.net_box {
+  background: #250558;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+}
+.mtset {
+}
+@media (max-width: 764px) {
+  .net_box {
+    margin: 27px 0;
+  }
+  .content-wrapper {
+    padding-bottom: 5px !important;
+  }
+  .mtset {
+    margin-top: 5px !important;
+  }
+}
+.net_box img {
+  margin: 0 auto;
+}
+.tomenname {
+  color: #fff;
+}
+.net_box:hover {
+  border: 1px solid #a304fe;
+  -webkit-box-shadow: 0px 0px 20px 2px rgb(163 4 254 / 35%);
+  -moz-box-shadow: 0px 0px 20px 2px rgb(163 4 254 / 35%);
+  box-shadow: 0px 0px 20px 2px rgb(163 4 254 / 35%);
+  transition: 0.5s;
+}
+.net_box h4 {
+  color: #fff;
+}
+@media (min-width: 768px) {
+  .modal-dialog {
+    width: auto;
+    margin: 30px auto !important;
+  }
+}
+/*------modal end--------*/
+.wyzbal {
+}
+
+.wyzbal h4 {
+  border-bottom: 1px solid #a9a8a8;
+}
+.wyzbal {
+}
+.yzicon {
+}
+
+.yzicon img {
+  height: 17px;
+  padding-top: 2px;
+  padding-right: 6px;
+}
+
+.yzicon span {
+}
+.usdicon {
+  padding-right: 17px;
+}
+.usdicon i {
+}
+.usdicon span {
+  padding: 0px 3px 0 2px;
+  color: #b7b5b5;
+}
+
+.usdicon {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  margin: 11px 0px;
+  padding: 11px;
+  border: 1px solid #efefef;
+  border-radius: 10px;
+}
+
+.usdbal {
+}
+
+.yzicon2 {
+  display: flex;
+}
+
+.usdset {
+}
+
+.usdset p {
+  margin: 0px !important;
+  color: #b7b5b5;
+}
+
+/*--add number increase--*/
+.addNum {
+  padding: 12px 0;
+}
+.trxnumber {
+  display: flex;
+}
+.trxnumber input {
+  padding: 11px;
+  width: 75%;
+  border: unset;
+  border-radius: 7px;
+}
+@media (max-width: 468px) {
+  .trxnumber input {
+    width: 72%;
+  }
+}
+@media (max-width: 468px) {
+  .trxnumber input {
+    width: 67%;
+  }
+}
+
+.trxnumber input:focus {
+  outline: unset;
+}
+
+.trxnumber span {
+  color: #fff;
+  padding: 9px 0 0 6px;
+}
+
+.joinbtn {
+  text-align: center;
+}
+.joinbtn button {
+  padding: 11px 35px;
+  background: #2229f9;
+  color: #fff;
+  border-color: #2229f9;
+  border-radius: 5px;
+  margin: 4px 0px 0 0;
+  width: 38%;
+}
+
+.joinbtn button:focus {
+  outline: unset;
+}
+
+.numbtn {
+  margin: 15px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.numbtn button {
+  border: 1px solid #000;
+  background: #531577;
+  color: #fff;
+  margin: 3px 3px 3px 0;
+  padding: 8px 24px;
+  /* margin: 5px; */
+  cursor: pointer;
+  min-width: 135px;
+  border-radius: 5px;
+}
+.numbtn button:focus {
+  outline: unset;
+}
+/*--add number increase end--*/
+
+.avlbal {
+  display: flex;
+  justify-content: space-between;
+  margin: 7px 0px;
+}
+.avlbal {
+}
+.avlbal .showbal {
+}
+.avlbal .showbal input {
+  padding: 4px 6px;
+  border: unset;
+  border-radius: 5px;
+  background: #fff;
+}
+.avlbal .showbal input:focus {
+  outline: unset;
+}
+
+.metaset {
+  position: relative;
+  top: -12px;
+}
+.avl-mrtset {
+  margin: 6.1rem 0;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  height: 50px !important;
+  width: 100px !important;
+}
